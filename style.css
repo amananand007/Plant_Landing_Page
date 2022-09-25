@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+#navbarMonstera {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#navFirst {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+#navFirst>img {
+    height: 40px;
+}
+
+#navMid>div:nth-child(1) {
+    position: absolute;
+    top: 35px;
+    left: 400px;
+    font-family: "Abel";
+    font-size: 22px;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+
+#navMid>div:nth-child(2) {
+    position: absolute;
+    top: 35px;
+    left: 510px;
+    font-size: 22px;
+    font-family: "Abel";
+}
+
+#navMid>div:nth-child(3) {
+    position: absolute;
+    top: 35px;
+    left: 640px;
+    font-size: 22px;
+    font-family: "Abel";
+}
+
+#navMid>div:nth-child(4) {
+    position: absolute;
+    top: 35px;
+    left: 740px;
+    font-size: 22px;
+    font-family: "Abel";
+}
+
+#navMid>div:nth-child(5) {
+    position: absolute;
+    top: 35px;
+    left: 840px;
+    font-size: 22px;
+    font-family: "Abel";
+}
+
+#navEnd>div:nth-child(1) {
+    position: absolute;
+    top: 40px;
+    right: 180px;
+}
+
+#navEnd>div:nth-child(3) {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+}
+
+#navEnd>div:nth-child(2) {
+    position: absolute;
+    top: 40px;
+    right: 120px;
+}
+
+ul {
+    list-style: disc;
+}
+
+#monstera {
+    position: absolute;
+    top: 180px;
+    left: 70px;
+    font-size: 80px;
+    font-family: "Allerta";
+    font-weight: 800;
+    height: 10px;
+    width: 50px;
+    list-style: disc;
+}
+
+ul>li:nth-child(3) {
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    font-family: "Allerta";
+    font-size: 18px;
+    color: #212122;
+}
+
+ul>li:nth-child(4) {
+    position: absolute;
+    top: 335px;
+    left: 70px;
+    font-family: "Allerta";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#imgMain {
+    position: absolute;
+    top: 89px;
+    right: 0px;
+    height: 568px;
+    width: 580px;
+}
+
+
+/* #midWholePart13 {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 500px;
+    left: 30px;
+} */
+
+#feeding {
+    position: absolute;
+    top: 560px;
+    left: 60px;
+}
+
+.feeding1 {
+    position: absolute;
+    top: 560px;
+    left: 160px;
+    font-family: "Allerta";
+    font-size: 20px;
+}
+
+.text2 {
+    position: absolute;
+    top: 590px;
+    left: 160px;
+    font-size: 12px;
+    font-family: "Abel";
+}
+
+.text3 {
+    position: absolute;
+    top: 605px;
+    left: 160px;
+    font-size: 12px;
+    font-family: "Abel";
+}
+
+#light {
+    position: absolute;
+    top: 560px;
+    left: 340px;
+}
+
+.light1 {
+    position: absolute;
+    top: 560px;
+    left: 395px;
+    font-family: "Allerta";
+    font-size: 20px;
+}
+
+.text5 {
+    position: absolute;
+    top: 590px;
+    left: 395px;
+    font-size: 12px;
+    font-family: "Abel";
+}
+
+.text6 {
+    position: absolute;
+    top: 605px;
+    left: 395px;
+    font-size: 12px;
+    font-family: "Abel";
+}
+
+#care {
+    position: absolute;
+    top: 560px;
+    left: 560px;
+}
+
+.care1 {
+    position: absolute;
+    top: 560px;
+    left: 625px;
+    font-family: "Allerta";
+    font-size: 20px;
+}
+
+.text8 {
+    position: absolute;
+    top: 590px;
+    left: 625px;
+    font-size: 12px;
+    font-family: "Abel";
+}
+
+.text9 {
+    position: absolute;
+    top: 605px;
+    left: 625px;
+    font-size: 12px;
+    font-family: "Abel";
+}
+
+#midWholePart121>div:nth-child(1) {
+    position: absolute;
+    top: 410px;
+    left: 70px;
+    padding: 10px;
+    border: none;
+    background-color: #466d50;
+    color: #f5f5f5;
+    font-family: "Abel";
+    font-size: 20px;
+    border-radius: 40px;
+    height: 45px;
+    width: 220px;
+    text-align: center;
+    justify-content: center;
+}
+
+#midWholePart11 {
+    list-style: disc;
+}
